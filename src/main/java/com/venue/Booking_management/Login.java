@@ -13,5 +13,7 @@ public class Login
         System.out.println("Ajay is now going for the automain ");
         System.out.println("Loging page going to launch ");
         System.out.println("Jaya is final sitution than you ");
+        System.out.println("Thank you  ");
+        System.out.println("Jaya is final sitution than you ");
     }
 }
