@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <!-- ================= PROPERTIES ================= -->
+    <Properties>
+        <!-- Logs folder (auto created in project root) -->
+        <Property name="logDir">logs</Property>
+        <Property name="logFile">automation</Property>
+    </Properties>
+
+    <!-- ================= APPENDERS ================= -->
+    <Appenders>
+
+        <!-- Console Logs -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger - %msg%n"/>
+        </Console>
+
+        <!-- Rolling File Logs -->
+        <RollingFile name="RollingFileLogger"
+                     fileName="${logDir}/${logFile}.log"
+                     filePattern="${logDir}/${logFile}-%d{yyyy-MM-dd}-%i.log.gz">
+
+            <PatternLayout>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c - %m%n</pattern>
+            </PatternLayout>
+
+            <!-- Log rotation policies -->
+            <Policies>
+                <!-- New file every day -->
+                <TimeBasedTriggeringPolicy interval="1"/>
+
+                <!-- New file if size > 5MB -->
+                <SizeBasedTriggeringPolicy size="5MB"/>
+            </Policies>
+
+            <!-- Keep only last 5 files -->
+            <DefaultRolloverStrategy max="5"/>
+
+        </RollingFile>
+
+    </Appenders>
+
+    <!-- ================= LOGGERS ================= -->
+    <Loggers>
+
+        <!-- Root Logger -->
+        <Root level="info">
+            <!--<AppenderRef ref="Console"/>-->
+            <AppenderRef ref="RollingFileLogger"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>
