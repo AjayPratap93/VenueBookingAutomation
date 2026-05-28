@@ -5,6 +5,7 @@
     <classes>
       <class name="testCases.LoginTest">
         <methods>
+          <include name="loginAdmin"/>
           <include name="close"/>
           <include name="create"/>
           <include name="loginApp"/>
