@@ -1,101 +1,56 @@
-2026-05-27 11:05:54 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 11:06:06 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 11:06:07 INFO  testCases.LoginTest - Login completed 
-2026-05-27 11:06:15 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 11:07:59 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 11:08:05 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 11:08:07 INFO  testCases.LoginTest - Login completed 
-2026-05-27 11:08:16 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 11:08:23 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 11:08:30 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 11:08:32 INFO  testCases.LoginTest - Login completed 
-2026-05-27 11:08:39 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 12:58:26 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 13:00:29 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 13:00:34 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 13:00:35 INFO  testCases.LoginTest - Login completed 
-2026-05-27 13:00:42 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 13:01:11 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 13:01:17 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 13:01:18 INFO  testCases.LoginTest - Login completed 
-2026-05-27 13:01:25 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 13:36:15 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 13:36:21 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 13:36:22 INFO  testCases.LoginTest - Login completed 
-2026-05-27 13:36:29 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 13:37:12 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 13:37:17 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 13:37:17 INFO  testCases.LoginTest - Login completed 
-2026-05-27 13:37:24 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 13:38:31 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 13:38:36 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 13:38:36 INFO  testCases.LoginTest - Login completed 
-2026-05-27 13:38:43 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 13:39:13 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 13:39:18 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 13:39:19 INFO  testCases.LoginTest - Login completed 
-2026-05-27 13:39:26 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 15:55:52 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 15:56:17 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 15:56:18 INFO  testCases.LoginTest - Login completed 
-2026-05-27 15:56:25 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 16:01:56 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 16:02:05 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 16:02:06 INFO  testCases.LoginTest - Login completed 
-2026-05-27 16:02:12 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 16:04:24 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 16:04:29 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 16:04:30 INFO  testCases.LoginTest - Login completed 
-2026-05-27 16:04:37 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 16:11:18 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 16:11:26 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 16:11:27 INFO  testCases.LoginTest - Login completed 
-2026-05-27 16:11:35 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 16:49:43 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 16:49:47 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 16:49:48 INFO  testCases.LoginTest - Login completed 
-2026-05-27 16:49:55 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 17:13:00 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 17:13:03 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 17:13:04 INFO  testCases.LoginTest - Login completed 
-2026-05-27 17:13:11 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 17:19:25 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 17:19:30 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 17:19:32 INFO  testCases.LoginTest - Login completed 
-2026-05-27 17:19:39 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 17:20:50 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 17:20:55 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 17:20:56 INFO  testCases.LoginTest - Login completed 
-2026-05-27 17:21:03 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 17:43:14 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 17:43:16 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 17:43:17 INFO  testCases.LoginTest - Login completed 
-2026-05-27 17:43:24 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 17:43:58 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 17:44:01 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 17:44:02 INFO  testCases.LoginTest - Login completed 
-2026-05-27 17:44:10 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 17:56:44 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 17:56:46 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 17:56:46 INFO  testCases.LoginTest - Login completed 
-2026-05-27 17:56:53 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 17:57:21 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 17:57:23 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 17:57:24 INFO  testCases.LoginTest - Login completed 
-2026-05-27 17:57:31 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 20:04:42 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 20:04:44 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 20:04:45 INFO  testCases.LoginTest - Login completed 
-2026-05-27 20:04:52 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 20:06:22 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 20:06:23 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 20:06:24 INFO  testCases.LoginTest - Login completed 
-2026-05-27 20:06:33 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 22:23:54 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 22:23:56 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 22:23:57 INFO  testCases.LoginTest - Login completed 
-2026-05-27 22:24:03 INFO  testCases.LoginTest - Test Excute perfectly  
-2026-05-27 22:40:15 INFO  testCases.LoginTest - Lunching browswer
-2026-05-27 22:40:18 INFO  testCases.LoginTest - Start admin panle login 
-2026-05-27 22:40:18 INFO  testCases.LoginTest - Login completed 
-2026-05-27 22:40:25 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 14:27:57 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 14:27:59 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 14:27:59 INFO  testCases.LoginTest - Login completed 
+2026-06-03 14:28:06 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 14:34:20 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 14:34:21 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 14:34:22 INFO  testCases.LoginTest - Login completed 
+2026-06-03 14:34:29 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 14:41:03 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 14:41:05 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 14:41:06 INFO  testCases.LoginTest - Login completed 
+2026-06-03 14:41:13 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 14:51:07 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 14:51:09 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 14:51:10 INFO  testCases.LoginTest - Login completed 
+2026-06-03 14:51:16 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 14:57:12 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 14:57:13 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 14:57:14 INFO  testCases.LoginTest - Login completed 
+2026-06-03 14:57:21 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 15:00:11 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 15:00:13 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 15:00:14 INFO  testCases.LoginTest - Login completed 
+2026-06-03 15:00:21 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 15:47:08 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 15:47:09 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 15:47:12 INFO  testCases.LoginTest - Login completed 
+2026-06-03 15:47:18 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 15:56:01 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 15:56:03 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 15:56:04 INFO  testCases.LoginTest - Login completed 
+2026-06-03 15:56:11 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 16:06:16 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 16:06:17 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 16:06:18 INFO  testCases.LoginTest - Login completed 
+2026-06-03 16:06:25 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 16:19:57 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 16:19:58 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 16:19:59 INFO  testCases.LoginTest - Login completed 
+2026-06-03 16:20:06 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 16:24:36 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 16:24:38 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 16:24:39 INFO  testCases.LoginTest - Login completed 
+2026-06-03 16:24:52 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 17:02:55 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 17:02:56 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 17:02:57 INFO  testCases.LoginTest - Login completed 
+2026-06-03 17:03:04 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 17:06:27 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 17:06:28 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 17:06:29 INFO  testCases.LoginTest - Login completed 
+2026-06-03 17:06:36 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 17:46:51 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 17:46:52 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 17:46:53 INFO  testCases.LoginTest - Login completed 
+2026-06-03 17:46:59 INFO  testCases.LoginTest - Test Excute perfectly  

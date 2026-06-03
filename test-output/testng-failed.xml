@@ -5,9 +5,8 @@
     <classes>
       <class name="testCases.LoginTest">
         <methods>
-          <include name="loginAdmin"/>
+          <include name="createFacilities"/>
           <include name="close"/>
-          <include name="create"/>
           <include name="loginApp"/>
         </methods>
       </class> <!-- testCases.LoginTest -->
