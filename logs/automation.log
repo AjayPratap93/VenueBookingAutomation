@@ -54,3 +54,7 @@
 2026-06-03 17:46:52 INFO  testCases.LoginTest - Start admin panle login 
 2026-06-03 17:46:53 INFO  testCases.LoginTest - Login completed 
 2026-06-03 17:46:59 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-03 18:09:33 INFO  testCases.LoginTest - Lunching browswer
+2026-06-03 18:09:34 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-03 18:09:35 INFO  testCases.LoginTest - Login completed 
+2026-06-03 18:09:42 INFO  testCases.LoginTest - Test Excute perfectly  
