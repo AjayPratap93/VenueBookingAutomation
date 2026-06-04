@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-03T17:46:49 IST" name="Default suite" finished-at="2026-06-03T17:48:33 IST" duration-ms="104302">
+  <suite started-at="2026-06-04T12:43:20 IST" name="Default suite" finished-at="2026-06-04T12:46:14 IST" duration-ms="173644">
     <groups>
     </groups>
-    <test started-at="2026-06-03T17:46:49 IST" name="Default test" finished-at="2026-06-03T17:48:33 IST" duration-ms="104302">
+    <test started-at="2026-06-04T12:43:20 IST" name="Default test" finished-at="2026-06-04T12:46:14 IST" duration-ms="173644">
       <class name="testCases.LoginTest">
-        <test-method is-config="true" signature="loginApp()[pri:0, instance:testCases.LoginTest@3a0d172f]" started-at="2026-06-03T17:46:49 IST" name="loginApp" finished-at="2026-06-03T17:46:52 IST" duration-ms="3559" status="PASS">
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:testCases.LoginTest@485e36bc]" started-at="2026-06-04T12:43:20 IST" name="loginApp" finished-at="2026-06-04T12:43:34 IST" duration-ms="13321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method signature="loginAdmin()[pri:1, instance:testCases.LoginTest@3a0d172f]" started-at="2026-06-03T17:46:52 IST" name="loginAdmin" finished-at="2026-06-03T17:46:59 IST" duration-ms="7336" status="PASS">
+        <test-method signature="loginAdmin()[pri:1, instance:testCases.LoginTest@485e36bc]" started-at="2026-06-04T12:43:34 IST" name="loginAdmin" finished-at="2026-06-04T12:43:48 IST" duration-ms="14788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method signature="createCluster()[pri:2, instance:testCases.LoginTest@3a0d172f]" started-at="2026-06-03T17:46:59 IST" name="createCluster" finished-at="2026-06-03T17:47:25 IST" duration-ms="25314" status="PASS">
+        <test-method signature="createCluster()[pri:2, instance:testCases.LoginTest@485e36bc]" started-at="2026-06-04T12:43:48 IST" name="createCluster" finished-at="2026-06-04T12:44:15 IST" duration-ms="26872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCluster -->
-        <test-method signature="CreateVenue()[pri:3, instance:testCases.LoginTest@3a0d172f]" started-at="2026-06-03T17:47:25 IST" name="CreateVenue" finished-at="2026-06-03T17:48:08 IST" duration-ms="43684" status="PASS">
+        <test-method signature="CreateVenue()[pri:3, instance:testCases.LoginTest@485e36bc]" started-at="2026-06-04T12:44:15 IST" name="CreateVenue" finished-at="2026-06-04T12:45:04 IST" duration-ms="48524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateVenue -->
-        <test-method signature="createFacilities()[pri:4, instance:testCases.LoginTest@3a0d172f]" started-at="2026-06-03T17:48:08 IST" name="createFacilities" finished-at="2026-06-03T17:48:28 IST" duration-ms="19017" status="PASS">
+        <test-method signature="createFacilities()[pri:4, instance:testCases.LoginTest@485e36bc]" started-at="2026-06-04T12:45:04 IST" name="createFacilities" finished-at="2026-06-04T12:45:44 IST" duration-ms="40192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFacilities -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testCases.LoginTest@3a0d172f]" started-at="2026-06-03T17:48:28 IST" name="close" finished-at="2026-06-03T17:48:33 IST" duration-ms="5317" status="PASS">
+        <test-method signature="createZone()[pri:5, instance:testCases.LoginTest@485e36bc]" started-at="2026-06-04T12:45:44 IST" name="createZone" finished-at="2026-06-04T12:46:08 IST" duration-ms="24432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createZone -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.LoginTest@485e36bc]" started-at="2026-06-04T12:46:08 IST" name="close" finished-at="2026-06-04T12:46:14 IST" duration-ms="5385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

@@ -68,6 +68,8 @@ public class LoginTest  {
 	void createCluster() throws InterruptedException {
 		Venue_Management v1=new Venue_Management(driver);
 		String clusterName = "Demo" + RandomData.randomString();
+		String Name =  RandomData.randomString();
+		String Email= "Testing"+RandomData.randomString()+"@yopmail.com";
 		TestDataStore.clusterName=clusterName;
 		v1.Cluster();
 		
@@ -75,18 +77,20 @@ public class LoginTest  {
 		  v1.addCluster(); v1.Clustername(clusterName);
 		  v1.ClusteLat_Lon("28.5197","77.2006"); 
 		  v1.clusterRedius("2000");
-		  v1.clusterSuperviosr("Yakub","7987597988");
-		  v1.clusterEmail("newUser@yopmail.com");
+		  v1.clusterSuperviosr(Name,"7987597988");
+		  v1.clusterEmail(Email);
 		  v1.clusterImage(imagePath);
 		  v1.clusterdescription("This is for new cluster  ");
 		  v1.clusterSave();
 		  Thread.sleep(2000);
 		  System.out.println("SuccessFul Cluster Creat");
+		  log.info("Test Excute perfectly  ");
 	}
 	@Test(priority=3)
 	void CreateVenue() throws InterruptedException {
 		Venue_Management venue=new Venue_Management(driver);
 		String venueName="Demo" +RandomData.randomString();
+		String Email= "Testing"+RandomData.randomString()+"@yopmail.com";
 		TestDataStore.venueName = venueName;
 		venue.clickViewButton(TestDataStore.clusterName);
 		venue.createClusterInVenue();
@@ -96,25 +100,41 @@ public class LoginTest  {
 		venue.VenueRedius("2000");
 		venue.VenueSuperVisorName("Kanchan Thakur ");
 		venue.VenueSuperVisorContect("7984987879");
-		venue.VenueSupervisorEmail("NewUSer@yopmail.com");
+		venue.VenueSupervisorEmail(Email);
 		venue.venueDescription("This is new Venue under the cluster ");
 		venue.EnableButton();
 		venue.VenueSave();
 		System.out.println("Successful venue created ");
+		log.info("Test Excute perfectly  ");
 	}
 	@Test(priority=4) 
 	 void createFacilities() throws InterruptedException {
 		Venue_Management Faci=new Venue_Management(driver);
+		String Facility =  RandomData.randomString();
+		String Email= "Demo"+RandomData.randomString()+"@yopmail.com";
 		Faci.clickFacilitiesView(TestDataStore.venueName);
 		Faci.AddFacilities();
 		Faci.FacilitiesType();
 		Faci.SportsFacilities();
 		Faci.FailitiesRedius("2000");
+		Faci.EnterLocarion("Khelo Tech");
+		Faci.FacilitiesSuperVisorDetails(Facility, Email, "9879798798");
+		Faci.CreateFacility("Camera");
+	}
+	@Test(priority=5)
+	void createZone() throws InterruptedException {
+		Venue_Management Zone=new Venue_Management(driver);
+		String ZoneName =  RandomData.randomString();
+		String Email= "Demo"+RandomData.randomString()+"@yopmail.com";
+		Zone.clickZonebutton();
+		Zone.enterZoneName(ZoneName, "2000");
+		Zone.EnterLocarionZone("Khelo tech");
+		Zone.ZoneSuperVisorDetails(ZoneName, Email, "9879798798");
+		Zone.CreateZone();
 	}
 	@AfterClass
 	void close() throws InterruptedException {
 		Thread.sleep(5000);
-		driver.quit();
-		
+		driver.quit();	
 	}
 }

@@ -55,6 +55,22 @@ public class Venue_Management extends BasePage {
 	@FindBy(xpath="//input[@placeholder=\"Search sports...\"]") WebElement searchSports;
 	@FindBy(xpath="//span[text()='Archery']")WebElement finalSports;
 	@FindBy(xpath="//input[@placeholder=\"Enter Radius\"]") WebElement facilityRedius;
+	@FindBy(xpath="//button[normalize-space()='Create Facility']") WebElement CreateFacilityButton;
+	@FindBy(xpath="//input[@placeholder=\"Enter Venue Amenities\"]") WebElement Amenities;
+	@FindBy(xpath="//input[@placeholder=\"Enter Supervisor Name\"]") WebElement Facility_Supervisor_name;
+	@FindBy(xpath="//input[@placeholder=\"Enter Contact No\"]") WebElement Facility_Spuervisor_contect;
+	@FindBy(xpath="//input[@placeholder=\"Enter Supervisor Email\"]") WebElement Facility_Supervisor_email;
+	
+	// xpath for zone
+	
+	
+	@FindBy(xpath = "//div[text()='Zones']") WebElement Zonebutton;
+	@FindBy(xpath="//p[normalize-space()='Add Zone']") WebElement AddZone;
+	@FindBy(xpath="//input[@id=\"zone_name\"]") WebElement Enter_Zone_Name;
+	@FindBy(xpath="//button[text()='Create Zone']") WebElement Creat_Zone;
+	@FindBy(xpath="placeholder=\"Enter Supervisor Contact\"") WebElement SuperVisor_Zone_Contect;
+	@FindBy(xpath="//button[text()='OK']") WebElement Zone_Ok;
+	
 	
 	
 	
@@ -233,5 +249,74 @@ public class Venue_Management extends BasePage {
 		facilityRedius.sendKeys(radius);
 	}
 	
+	public void EnterLocarion(String Location) throws InterruptedException {
+		Thread.sleep(2000);
+		Search_Location.clear();
+		Thread.sleep(2000);
+		Search_Location.sendKeys(Location);
+		Thread.sleep(2000);
+		click_location.click();
+	}
 	
+	public void FacilitiesSuperVisorDetails(String name,String Email, String contect) throws InterruptedException {
+		JavascriptExecutor js=(JavascriptExecutor) driver;;
+		WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(10));
+		CreateFacilityButton = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[normalize-space()='Create Facility']")));
+		Thread.sleep(2000);
+        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", CreateFacilityButton);
+        Facility_Supervisor_name.sendKeys(name);
+        Thread.sleep(2000);
+        Facility_Supervisor_email.sendKeys(Email);
+        Thread.sleep(2000);
+        Facility_Spuervisor_contect.sendKeys(contect);
+        Thread.sleep(2000);
+	}
+	
+	public void CreateFacility(String Aminities) throws InterruptedException {
+		Amenities.sendKeys(Aminities);
+		 Thread.sleep(2000);
+		CreateFacilityButton.click();
+	}
+	public void clickZonebutton() throws InterruptedException {
+		JavascriptExecutor js=(JavascriptExecutor) driver;;
+		WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(10));
+		Zonebutton = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[text()='Zones']")));
+		Thread.sleep(2000);
+        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", Zonebutton);
+        Thread.sleep(2000);
+        Zonebutton.click();
+        Thread.sleep(2000);
+        AddZone.click();
+	}
+	
+	
+	public void enterZoneName(String Name,String radius) {
+		
+		Enter_Zone_Name.sendKeys(Name);
+		facilityRedius.sendKeys(radius);
+	}
+	public void EnterLocarionZone(String Location) throws InterruptedException {
+		Thread.sleep(2000);
+		Search_Location.sendKeys(Location);
+		Thread.sleep(2000);
+		click_location.click();
+	}
+	public void ZoneSuperVisorDetails(String name,String Email, String contect) throws InterruptedException {
+		JavascriptExecutor js=(JavascriptExecutor) driver;;
+		WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(10));
+		Creat_Zone = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[text()='Create Zone']")));
+		Thread.sleep(2000);
+        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", Creat_Zone);
+        Facility_Supervisor_name.sendKeys(name);
+        Thread.sleep(2000);
+        Facility_Supervisor_email.sendKeys(Email);
+        Thread.sleep(2000);
+       // SuperVisor_Zone_Contect.sendKeys(contect);
+        Thread.sleep(2000);
+	}
+	public void CreateZone() throws InterruptedException {
+		Creat_Zone.click();
+		Thread.sleep(2000);
+		Zone_Ok.click();
+	}
 }
