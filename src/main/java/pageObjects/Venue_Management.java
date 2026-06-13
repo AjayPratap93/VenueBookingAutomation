@@ -72,6 +72,15 @@ public class Venue_Management extends BasePage {
 	@FindBy(xpath="//button[text()='OK']") WebElement Zone_Ok;
 	
 	
+	// Jharkhand cluser and venue modifire things 
+	
+	@FindBy(xpath="//input[@id=\"cluster_code\"]")  WebElement Cluster_Code;
+	@FindBy(xpath ="//input[@id=\"venue_code\"]") WebElement Venue_code;
+	@FindBy(xpath="//input[@id=\"venue_address\"]") WebElement VenueAddress;
+	@FindBy(xpath="//input[@placeholder=\"Enter Facility Code\"]") WebElement FacilityCode;
+	@FindBy(xpath="//button[normalize-space()='Radius']") WebElement RadiusButton;
+	@FindBy(xpath="//input[@id=\"zone_code\"]") WebElement ZoneCode;
+	
 	
 	
 	// Create cluster in the venue managemnet System 
@@ -82,6 +91,10 @@ public class Venue_Management extends BasePage {
 	public void addCluster() throws InterruptedException {
 		create_Culster.click();
 		Thread.sleep(3000);
+	}
+	
+	public void clusterCode(String number) {
+		Cluster_Code.sendKeys(number);
 	}
 	public void Clustername(String name) throws InterruptedException {
 		cluster_name.sendKeys(name);
@@ -149,6 +162,9 @@ public class Venue_Management extends BasePage {
 		Thread.sleep(2000);
 		Venue_name.sendKeys(name);
 	}
+	public void VenueCode(String number) {
+		Venue_code.sendKeys(number);
+	}
 	public void uploadVenueImage(String image) throws InterruptedException {
 		Thread.sleep(2000);
 		 Upload_venue_Image.sendKeys(image);
@@ -165,6 +181,9 @@ public class Venue_Management extends BasePage {
 		Search_Location.sendKeys(location);
 		Thread.sleep(4000);
 		click_location.click();
+	}
+	public void VenueAddress(String Address) {
+		VenueAddress.sendKeys(Address);
 	}
 	public void VenueRedius(String redius) throws InterruptedException {
 		Thread.sleep(2000);
@@ -207,15 +226,16 @@ public class Venue_Management extends BasePage {
 	// Create Facilities under the venue 
 	
 	public void clickFacilitiesView(String venueName) {
-
+		JavascriptExecutor js=(JavascriptExecutor) driver;
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-	    String xpath = "//td[normalize-space()='"+venueName +"']/ancestor::tr[@data-slot=\"table-row\"]/descendant::td[5][@data-slot=\"table-cell\"]//button[normalize-space()='View']";
-
+	   // String xpath = "//td[normalize-space()='"+venueName +"']/ancestor::tr[@data-slot=\"table-row\"]/descendant::td[5][@data-slot=\"table-cell\"]//button[normalize-space()='View']";
+	    String xpath="(//td[normalize-space()='"+venueName+"']/ancestor::tr[@data-slot=\"table-row\"]/descendant::button[normalize-space()='View'])[1]";
 	    WebElement viewBtn = wait.until(
 	        ExpectedConditions.elementToBeClickable(By.xpath(xpath))
 	    );
-
+	    
+	    js.executeScript("arguments[0].scrollIntoView({block: 'center'});", viewBtn);
 	    viewBtn.click();
 	}
 	public void AddFacilities() throws InterruptedException {
@@ -223,6 +243,15 @@ public class Venue_Management extends BasePage {
 		AddFacilities.click();
 	}
 	
+	public void FacilityCode(String number) {
+		FacilityCode.sendKeys(number);
+	}
+	public void FaciType() throws InterruptedException {
+		 RadiusButton.click();
+		Thread.sleep(3000);
+		FacilitiesType.click();
+		Thread.sleep(3000);
+	}
 	public void FacilitiesType() throws InterruptedException {
 		Thread.sleep(3000);
 		FacilitiesType.click();
@@ -289,6 +318,9 @@ public class Venue_Management extends BasePage {
         AddZone.click();
 	}
 	
+	public void ZoneCoad(String number) {
+		ZoneCode.sendKeys(number);
+	}
 	
 	public void enterZoneName(String Name,String radius) {
 		
