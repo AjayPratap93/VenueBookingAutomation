@@ -24,6 +24,10 @@ Logger  log =  LogManager.getLogger(this.getClass());
 		PageFactory.initElements(driver, this);
 	}
 	
+	public BasePage() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void setup() {
 		driver=new ChromeDriver();
 		log.info("Lunching browswer");

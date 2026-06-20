@@ -5,9 +5,14 @@
     <classes>
       <class name="testCases.JharkhandVenue_loginTest">
         <methods>
+          <include name="createFacilities"/>
+          <include name="createCluster"/>
           <include name="close"/>
           <include name="loginApp"/>
+          <include name="CreateVenue"/>
+          <include name="createZone"/>
           <include name="createModuleManager"/>
+          <include name="loginAdmin"/>
         </methods>
       </class> <!-- testCases.JharkhandVenue_loginTest -->
     </classes>

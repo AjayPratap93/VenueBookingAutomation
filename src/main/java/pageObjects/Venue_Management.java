@@ -1,4 +1,4 @@
-package pageObjects;
+	package pageObjects;
 
 
 import java.time.Duration;
@@ -70,6 +70,9 @@ public class Venue_Management extends BasePage {
 	@FindBy(xpath="//button[text()='Create Zone']") WebElement Creat_Zone;
 	@FindBy(xpath="placeholder=\"Enter Supervisor Contact\"") WebElement SuperVisor_Zone_Contect;
 	@FindBy(xpath="//button[text()='OK']") WebElement Zone_Ok;
+	
+	// play and pay
+	@FindBy(xpath="//span[text()='Pay and Play']") WebElement Play_PayButton;
 	
 	
 	// Jharkhand cluser and venue modifire things 
@@ -350,5 +353,12 @@ public class Venue_Management extends BasePage {
 		Creat_Zone.click();
 		Thread.sleep(2000);
 		Zone_Ok.click();
+	}
+	
+	
+
+	public void playPaybutton() throws InterruptedException {
+		Thread.sleep(2000);
+		Play_PayButton.click();
 	}
 }
