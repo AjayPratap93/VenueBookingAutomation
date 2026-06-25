@@ -20,3 +20,13 @@
 2026-06-25 09:56:49 INFO  testCases.LoginTest - Test Excute perfectly  
 2026-06-25 09:57:36 INFO  testCases.LoginTest - Venue created: DemoNRRwm
 2026-06-25 09:57:36 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 10:11:58 INFO  testCases.JharkhandVenue_loginTest - Lunching browswer
+2026-06-25 10:12:00 INFO  testCases.JharkhandVenue_loginTest - Start admin panle login 
+2026-06-25 10:12:00 INFO  testCases.JharkhandVenue_loginTest - Login completed 
+2026-06-25 10:12:06 INFO  testCases.JharkhandVenue_loginTest - Test Excute perfectly  
+2026-06-25 10:12:30 INFO  testCases.JharkhandVenue_loginTest - Cluster created: DemoJpLQp
+2026-06-25 10:12:30 INFO  testCases.JharkhandVenue_loginTest - Test Excute perfectly  
+2026-06-25 10:13:02 INFO  testCases.JharkhandVenue_loginTest - Venue created: DemovJojI
+2026-06-25 10:13:02 INFO  testCases.JharkhandVenue_loginTest - Test Excute perfectly  
+2026-06-25 10:13:48 INFO  testCases.JharkhandVenue_loginTest - Finally all Code rn successful
+2026-06-25 10:14:12 INFO  testCases.JharkhandVenue_loginTest - module admin created successful
