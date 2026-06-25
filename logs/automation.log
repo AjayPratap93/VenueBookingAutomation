@@ -1,7 +1,22 @@
-2026-06-17 10:43:04 INFO  testCases.JharkhandVenue_loginTest - Lunching browswer
-2026-06-17 10:43:14 INFO  testCases.JharkhandVenue_loginTest - Start admin panle login 
-2026-06-17 10:43:24 ERROR testCases.JharkhandVenue_loginTest - Test failed 
-2026-06-17 10:43:36 INFO  testCases.LoginTest - Lunching browswer
-2026-06-17 10:43:39 INFO  testCases.LoginTest - Start admin panle login 
-2026-06-17 10:43:40 INFO  testCases.LoginTest - Login completed 
-2026-06-17 10:43:45 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 09:51:08 INFO  testCases.LoginTest - Lunching browswer
+2026-06-25 09:51:11 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-25 09:51:11 INFO  testCases.LoginTest - Login completed 
+2026-06-25 09:51:20 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 09:51:46 INFO  testCases.LoginTest - Cluster created: DemoUkPFe
+2026-06-25 09:51:46 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 09:53:41 INFO  testCases.LoginTest - Lunching browswer
+2026-06-25 09:53:43 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-25 09:53:44 INFO  testCases.LoginTest - Login completed 
+2026-06-25 09:53:51 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 09:54:18 INFO  testCases.LoginTest - Cluster created: DemoXBJQo
+2026-06-25 09:54:18 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 09:55:04 INFO  testCases.LoginTest - Venue created: DemoUDtaJ
+2026-06-25 09:55:04 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 09:56:13 INFO  testCases.LoginTest - Lunching browswer
+2026-06-25 09:56:15 INFO  testCases.LoginTest - Start admin panle login 
+2026-06-25 09:56:16 INFO  testCases.LoginTest - Login completed 
+2026-06-25 09:56:22 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 09:56:49 INFO  testCases.LoginTest - Cluster created: DemopKqXV
+2026-06-25 09:56:49 INFO  testCases.LoginTest - Test Excute perfectly  
+2026-06-25 09:57:36 INFO  testCases.LoginTest - Venue created: DemoNRRwm
+2026-06-25 09:57:36 INFO  testCases.LoginTest - Test Excute perfectly  

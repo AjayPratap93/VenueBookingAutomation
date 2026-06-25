@@ -97,8 +97,7 @@ public class LoginTest  {
 		  log.info("Test Excute perfectly  ");
 		  SoftAssert sa= new SoftAssert();
 		  sa.assertTrue(true);
-		  sa.assertAll();
-		  
+		  sa.assertAll();	  
 	}
 	@Test(priority=3)
 	void CreateVenue() throws InterruptedException {
@@ -111,7 +110,7 @@ public class LoginTest  {
 		venue.createClusterInVenue();
 		venue.enterVenueName(venueName);
 		venue.uploadVenueImage(imagePath);	
-		venue.searchLocation("Khelo Tech");
+		venue.searchLocation("kanpur");
 		venue.VenueRedius("2000");
 		venue.VenueSuperVisorName("Kanchan Thakur ");
 		venue.VenueSuperVisorContect("7984987879");
@@ -134,7 +133,7 @@ public class LoginTest  {
 		Faci.FacilitiesType();
 		Faci.SportsFacilities();
 		Faci.FailitiesRedius("2000");
-		Faci.EnterLocarion("Khelo Tech");
+		Faci.EnterLocarion("kanpur");
 		Faci.FacilitiesSuperVisorDetails(Facility, Email, "9879798798");
 		Faci.CreateFacility("Camera");
 		Assert.assertTrue(true);
@@ -146,7 +145,7 @@ public class LoginTest  {
 		String Email= "Demo"+RandomData.randomString()+"@yopmail.com";
 		Zone.clickZonebutton();
 		Zone.enterZoneName(ZoneName, "2000");
-		Zone.EnterLocarionZone("Khelo tech");
+		Zone.EnterLocarionZone("kanpur");
 		Zone.ZoneSuperVisorDetails(ZoneName, Email, "9879798798");
 		Zone.CreateZone();
 		Assert.assertTrue(true);

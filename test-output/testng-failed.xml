@@ -3,18 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.JharkhandVenue_loginTest">
+      <class name="testCases.LoginTest">
         <methods>
-          <include name="createFacilities"/>
-          <include name="createCluster"/>
-          <include name="close"/>
-          <include name="loginApp"/>
-          <include name="CreateVenue"/>
           <include name="createZone"/>
+          <include name="close"/>
           <include name="createModuleManager"/>
-          <include name="loginAdmin"/>
+          <include name="loginApp"/>
         </methods>
-      </class> <!-- testCases.JharkhandVenue_loginTest -->
+      </class> <!-- testCases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
